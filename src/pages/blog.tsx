@@ -17,7 +17,7 @@ function Blog({ }: Props) {
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloremque quidem molestiae. Ducimus possimus dolor optio vel laborum cum non delectus commodi tempore! Recusandae maxime quisquam tenetur! Tempora, praesentium at?
                         </div>
                     </div>
-                    <img src='https://www.pinclipart.com/picdir/big/379-3797946_software-developer-computer-servers-web-others-web-developer.png' className=' w-80 h-80' alt='logo'/>
+                    <img src='/assets/logo.png' className=' w-80 h-80' alt='logo'/>
                 </div>
             </div>
         </>
