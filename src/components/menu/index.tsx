@@ -36,7 +36,7 @@ export default function Navication() {
                 <div className="flex flex-shrink-0 items-center ">
                   <img
                     className="h-8 w-auto"
-                    src="https://www.pinclipart.com/picdir/big/379-3797946_software-developer-computer-servers-web-others-web-developer.png"
+                    src=" /assets/logo.png"
                     alt="Your Company"
                   />
                 </div>

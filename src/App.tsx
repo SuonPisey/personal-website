@@ -7,8 +7,14 @@ import Blog from './pages/blog';
 function App() {
   return (
     <>
-    <Navication/>
-    <Blog/>
+      <div style={
+        {
+          fontFamily: 'Kantumruy Pro'
+        }
+      }>
+        <Navication />
+        <Blog />
+      </div>
     </>
 
   );
