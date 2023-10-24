@@ -5,13 +5,13 @@ type Props = {};
 function Blog({ }: Props) {
     return (
         <>
-            <div className="container">
+            <div className="container ml-12">
                 {/* Picture and introdution   */}
                 <div className="font-bold text-3xl mt-16 ml-12 ">
                     <h1>Hi there, I'm SUON PSIEY</h1>
                 </div>
                 <div className="flex">
-                    <div className=" basis-3/4 mt-6 ml-12 ">
+                    <div className=" basis-3/4 mt-6  ">
                         <div>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Excepturi doloremque quidem molestiae. Ducimus possimus dolor
@@ -44,7 +44,38 @@ function Blog({ }: Props) {
                         <img src="/assets/logo.png" className=" w-80 h-80" alt="logo" />
                     </div>
                 </div>
-               <h3 className="font-bold text-3xl ml-12">Recent Project</h3>
+                <div className="recent">
+                    <h3 className="font-bold text-3xl ml-12">Recent <span className="text-cyan-400"><a href="#">Project</a></span> </h3>
+                    <div className="list mt-10">
+                        <div className="project-1   items-center flex  flex-grow border-solid border-2 pl-3 pb-1 pr-1 pt-1   h-36   " >
+                            <img src="/assets/logo.png" className="w-20 h-20 ml-12" />
+                            <div>
+                                <div className="ml-12">
+                                <h3 className="font-bold " >Project 1</h3>
+                                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus saepe sunt repellat at, numquam mollitia alias dolorem obcaecati eligendi omnis officia aspernatur vero est exercitationem commodi laudantium modi nam aliquid.</div>
+                                </div>
+                           </div>
+                        </div>
+                        <div className="project-1   items-center flex  flex-grow border-solid border-2 pl-3 pb-1 pr-1 pt-1   h-36   " >
+                            <img src="/assets/logo.png" className="w-20 h-20 ml-12" />
+                            <div>
+                                <div className="ml-12">
+                                <h3 className="font-bold " >Project 1</h3>
+                                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus saepe sunt repellat at, numquam mollitia alias dolorem obcaecati eligendi omnis officia aspernatur vero est exercitationem commodi laudantium modi nam aliquid.</div>
+                                </div>
+                           </div>
+                        </div>
+                        <div className="project-1   items-center flex  flex-grow border-solid border-2 pl-3 pb-1 pr-1 pt-1   h-36   " >
+                            <img src="/assets/logo.png" className="w-20 h-20 ml-12" />
+                            <div>
+                                <div className="ml-12">
+                                <h3 className="font-bold " >Project 1</h3>
+                                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus saepe sunt repellat at, numquam mollitia alias dolorem obcaecati eligendi omnis officia aspernatur vero est exercitationem commodi laudantium modi nam aliquid.</div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );
